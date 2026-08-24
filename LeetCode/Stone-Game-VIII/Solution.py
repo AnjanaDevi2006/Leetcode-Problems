@@ -1,0 +1,1 @@
+best = max(best, stones[i] - best)
