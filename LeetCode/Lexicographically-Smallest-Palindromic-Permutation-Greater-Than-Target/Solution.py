@@ -1,0 +1,1 @@
+left half + middle + reverse(left half)
