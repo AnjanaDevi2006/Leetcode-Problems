@@ -1,0 +1,1 @@
+max(left side) - min(right side) <= k
