@@ -1,0 +1,1 @@
+numbers contributing = n - start + 1
