@@ -1,11 +1,21 @@
-def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:        
-    left, prod, count = 0, 1, 0
-            
-    for right in range(len(nums)):
-        prod *= nums[right]            
-        
-        while prod >= k and left <= right:                    
-            prod /= nums[left]
-            left += 1                        
-        count += right - left + 1                
-    return count
+class Solution {
+public:
+    int numSubarrayProductLessThanK(vector<int>& nums, int k) {
+        int n = nums.size(), ans = 0;
+
+        for(int i = 0; i < n; i++) {
+            int product = 1;
+
+            for(int j = i; j < n; j++) {
+                product *= nums[j];
+
+                if(product < k)
+                    ans++;
+                else
+                    break;
+            }
+        }
+
+        return ans;
+    }
+};
