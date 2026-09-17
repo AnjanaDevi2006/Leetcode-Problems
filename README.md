@@ -19,11 +19,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0209-minimum-size-subarray-sum) |
+| [0724-find-pivot-index](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0724-find-pivot-index) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 ## Array
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0209-minimum-size-subarray-sum) |
+| [0724-find-pivot-index](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0724-find-pivot-index) |
 | [0904-fruit-into-baskets](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0904-fruit-into-baskets) |
 | [0992-subarrays-with-k-different-integers](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0992-subarrays-with-k-different-integers) |
 ## Hash Table
