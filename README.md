@@ -25,17 +25,24 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0904-fruit-into-baskets](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0904-fruit-into-baskets) |
+| [0992-subarrays-with-k-different-integers](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0992-subarrays-with-k-different-integers) |
 ## Hash Table
 |  |
 | ------- |
 | [0904-fruit-into-baskets](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0904-fruit-into-baskets) |
+| [0992-subarrays-with-k-different-integers](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0992-subarrays-with-k-different-integers) |
 ## Sliding Window
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0904-fruit-into-baskets](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0904-fruit-into-baskets) |
+| [0992-subarrays-with-k-different-integers](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0992-subarrays-with-k-different-integers) |
 ## Binary Search
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0209-minimum-size-subarray-sum) |
+## Counting
+|  |
+| ------- |
+| [0992-subarrays-with-k-different-integers](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0992-subarrays-with-k-different-integers) |
 <!---LeetCode Topics End-->
