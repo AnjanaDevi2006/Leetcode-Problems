@@ -1,0 +1,1 @@
+We cannot use extra space to create another array.
