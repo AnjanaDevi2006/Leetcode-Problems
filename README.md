@@ -65,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0680-valid-palindrome-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0680-valid-palindrome-ii) |
+| [0856-score-of-parentheses](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0856-score-of-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1096-brace-expansion-ii) |
 ## Backtracking
 |  |
@@ -73,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0856-score-of-parentheses](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0856-score-of-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1096-brace-expansion-ii) |
 ## Breadth-First Search
 |  |
@@ -94,4 +96,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0680-valid-palindrome-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0680-valid-palindrome-ii) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0856-score-of-parentheses](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0856-score-of-parentheses) |
 <!---LeetCode Topics End-->
