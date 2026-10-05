@@ -1,37 +1,30 @@
-from collections import defaultdict
-
-class Solution:
-    def findAnagrams(self, s: str, p: str) -> list[int]:
-        res = []
-        if len(s) < len(p):
+class Solution(object):
+    def findAnagrams(self, s, p):
+        """
+        :type s: str
+        :type p: str
+        :rtype: List[int]
+        """
+        res=[]
+        len_s=len(s)
+        len_p=len(p)
+        if len_p>len_s:
             return res
-            
-        pMap = defaultdict(int)
-        sMap = defaultdict(int)
-        
-        for c in p:
-            pMap[c] += 1
-            
-        left = 0
-        count = len(p)
-        
-        for right in range(len(s)):
-            ch = s[right]
-            
-            sMap[ch] += 1
-            
-            if ch in pMap and sMap[ch] <= pMap[ch]:
-                count -= 1
-                
-            if right - left + 1 > len(p):
-                leftChar = s[left]
-                if leftChar in pMap and sMap[leftChar] <= pMap[leftChar]:
-                    count += 1
-                    
-                sMap[leftChar] -= 1
-                left += 1
-                
-            if count == 0:
-                res.append(left)
-                
+        p_count=[0]*26
+        s_count=[0]*26
+        for ch in p:
+            p_count[ord(ch)-ord('a')]+=1
+        for ch in s[:len_p]:
+            s_count[ord(ch)-ord('a')]+=1
+        if p_count == s_count:
+            res.append(0)
+        for i in range(len_p,len_s):
+            old_char=s[i-len_p]
+            s_count[ord(old_char)-ord('a')]-=1
+
+            new_char=s[i]
+            s_count[ord(new_char)-ord('a')]+=1
+
+            if s_count == p_count:
+                res.append(i-len_p+1)
         return res
