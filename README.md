@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0053-maximum-subarray) |
+| [0647-palindromic-substrings](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0647-palindromic-substrings) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 ## Combinatorics
 |  |
@@ -64,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0647-palindromic-substrings](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0680-valid-palindrome-ii) |
 | [0856-score-of-parentheses](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0856-score-of-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1096-brace-expansion-ii) |
@@ -91,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0647-palindromic-substrings](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0680-valid-palindrome-ii) |
 ## Greedy
 |  |
