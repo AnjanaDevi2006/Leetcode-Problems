@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0069-sqrtx) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 ## Dynamic Programming
 |  |
@@ -62,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0069-sqrtx) |
 | [0209-minimum-size-subarray-sum](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0704-binary-search](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0704-binary-search) |
 ## Counting
@@ -122,4 +124,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1763-longest-nice-substring](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1763-longest-nice-substring) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
