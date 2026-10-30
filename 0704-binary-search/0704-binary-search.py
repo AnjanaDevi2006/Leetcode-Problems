@@ -1,17 +1,21 @@
 class Solution:
-    def search(self, nums, target):
 
-        left, right = 0, len(nums) - 1
+    def binary_search(self,Array,start,end,target):
+        if start > end:
+            return -1
+        mid = (start + end )//2
 
-        while left <= right:
+        if Array[mid] == target:
+            return mid
+        elif Array[mid] < target:
+            return self.binary_search(Array,mid+1,end,target)
+        else:
+            return self.binary_search(Array,start,mid-1,target)
+ 
+    def search(self, nums: list[int], target: int) -> int:
+        start = 0
+        end = len(nums) -1
+        ans = self.binary_search(nums,start,end,target)
+        return ans
 
-            mid = (left + right) // 2
-            if nums[mid] == target:
-                return mid
-
-            if nums[mid] < target:
-                left = mid + 1
-            else:
-                right = mid - 1
-
-        return -1
+        
