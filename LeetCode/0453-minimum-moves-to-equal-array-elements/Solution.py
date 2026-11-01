@@ -1,3 +1,3 @@
 class Solution:
     def minMoves(self, nums: List[int]) -> int:
-        return sum(nums) - len(nums) * min(nums)
+        return sum(nums) - min(nums) * len(nums)
