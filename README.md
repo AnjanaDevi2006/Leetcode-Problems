@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0069-sqrtx) |
+| [0189-rotate-array](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0189-rotate-array) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 ## Dynamic Programming
 |  |
@@ -36,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0053-maximum-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0162-find-peak-element) |
+| [0189-rotate-array](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0189-rotate-array) |
 | [0209-minimum-size-subarray-sum](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0560-subarray-sum-equals-k) |
@@ -120,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0189-rotate-array) |
 | [0647-palindromic-substrings](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0680-valid-palindrome-ii) |
 ## Greedy
