@@ -1,23 +1,21 @@
-from heapq import heapify, heappush, heappop
-
 class Solution:
-    def assignTasks(self, servers: list[int], tasks: list[int]) -> list[int]:
-        t = 0
-        j = 0
-        available = [(w, i) for i, w in enumerate(servers)]
-        returns = []
+    def assignTasks(self, servers: List[int], tasks: List[int]) -> List[int]:
+        res, unavailable = [], []
+        available = [(weight, id) for id, weight in enumerate(servers)]
         heapify(available)
-        assignments = [None] * len(tasks)
-        for j, d in enumerate(tasks):
-            if len(available) == 0 or (len(returns) > 0 and returns[0][0] <= j):
-                t = returns[0][0]
-                while len(returns) > 0 and returns[0][0] == t:
-                    _, i = heappop(returns)
-                    heappush(available, (servers[i], i))
-            if t < j:
-                t = j
-            end = t + d
-            _, i = heappop(available)
-            assignments[j] = i
-            heappush(returns, (end, i))
-        return assignments
+
+        for time, task in enumerate(tasks):
+            while unavailable and unavailable[0][0] == time:
+                _, weight, id = heappop(unavailable)
+                heappush(available, (weight, id))
+
+            if len(available) > 0:
+                weight, id = heappop(available)
+                heappush(unavailable, (time + task, weight, id))
+                res.append(id)
+            else:
+                finishTime, weight, id = heappop(unavailable)
+                heappush(unavailable, (finishTime + task, weight, id))
+                res.append(id)
+
+        return res
