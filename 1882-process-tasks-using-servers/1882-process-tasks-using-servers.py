@@ -1,10 +1,10 @@
 class Solution:
     def assignTasks(self, servers: List[int], tasks: List[int]) -> List[int]:
-        res, unavailable = [], []
+        res, unavailable, time = [], [], 0
         available = [(weight, id) for id, weight in enumerate(servers)]
         heapify(available)
 
-        for time, task in enumerate(tasks):
+        for task in tasks:
             while unavailable and unavailable[0][0] == time:
                 _, weight, id = heappop(unavailable)
                 heappush(available, (weight, id))
@@ -17,5 +17,6 @@ class Solution:
                 finishTime, weight, id = heappop(unavailable)
                 heappush(unavailable, (finishTime + task, weight, id))
                 res.append(id)
+            time +=1
 
         return res
