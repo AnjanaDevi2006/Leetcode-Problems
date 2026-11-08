@@ -47,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0724-find-pivot-index](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0724-find-pivot-index) |
 | [0904-fruit-into-baskets](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0904-fruit-into-baskets) |
 | [0992-subarrays-with-k-different-integers](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0992-subarrays-with-k-different-integers) |
+| [1267-count-servers-that-communicate](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1267-count-servers-that-communicate) |
 | [1314-matrix-block-sum](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1314-matrix-block-sum) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1882-process-tasks-using-servers](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1882-process-tasks-using-servers) |
@@ -90,9 +91,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0992-subarrays-with-k-different-integers](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0992-subarrays-with-k-different-integers) |
+| [1267-count-servers-that-communicate](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1267-count-servers-that-communicate) |
 ## Matrix
 |  |
 | ------- |
+| [1267-count-servers-that-communicate](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1267-count-servers-that-communicate) |
 | [1314-matrix-block-sum](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1314-matrix-block-sum) |
 ## String
 |  |
@@ -118,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1096-brace-expansion-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1096-brace-expansion-ii) |
+| [1267-count-servers-that-communicate](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1267-count-servers-that-communicate) |
 ## Sorting
 |  |
 | ------- |
@@ -156,4 +160,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1882-process-tasks-using-servers](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1882-process-tasks-using-servers) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
+## Depth-First Search
+|  |
+| ------- |
+| [1267-count-servers-that-communicate](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1267-count-servers-that-communicate) |
+## Union-Find
+|  |
+| ------- |
+| [1267-count-servers-that-communicate](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1267-count-servers-that-communicate) |
 <!---LeetCode Topics End-->
