@@ -1,29 +1,25 @@
 class Solution:
     def countServers(self, grid: List[List[int]]) -> int:
-        m = len(grid)
-        n = len(grid[0])
+        if not grid:
+            return 0
 
-        num_communicating = 0
-        column_to_num_row_singletons = dict()
-        for i, row in enumerate(grid):
-            num_ones = row.count(1)
-            if num_ones > 1:
-                num_communicating += num_ones
-            elif num_ones == 1:
-                column_ind = row.index(1)
-                if column_ind in column_to_num_row_singletons:
-                    column_to_num_row_singletons[column_ind] += 1
-                else:
-                    column_to_num_row_singletons[column_ind] = 1
+        row_counts = [0] * len(grid[0])
+        col_counts = [0] * len(grid)
 
-        print('num_communicating', num_communicating, column_to_num_row_singletons)
-        
-        for j, num_singletons in column_to_num_row_singletons.items():
-            num_ones = 0
-            for i in range(m):
-                num_ones += (grid[i][j] == 1)
-                if num_ones > 1:
-                    num_communicating += num_singletons
-                    break
+        # Count servers in each row and each column
+        for row in range(len(grid)):
+            for col in range(len(grid[0])):
+                if grid[row][col]:
+                    row_counts[col] += 1
+                    col_counts[row] += 1
 
-        return num_communicating
+        communicable_servers_count = 0
+
+        # Count servers that can communicate (in the same row or column)
+        for row in range(len(grid)):
+            for col in range(len(grid[0])):
+                if grid[row][col]:
+                    if row_counts[col] > 1 or col_counts[row] > 1:
+                        communicable_servers_count += 1
+
+        return communicable_servers_count
