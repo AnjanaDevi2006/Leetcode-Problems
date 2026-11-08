@@ -1,29 +1,15 @@
 class Solution:
-    def countServers(self, grid: List[List[int]]) -> int:
-        m = len(grid)
-        n = len(grid[0])
-
-        num_communicating = 0
-        column_to_num_row_singletons = dict()
-        for i, row in enumerate(grid):
-            num_ones = row.count(1)
-            if num_ones > 1:
-                num_communicating += num_ones
-            elif num_ones == 1:
-                column_ind = row.index(1)
-                if column_ind in column_to_num_row_singletons:
-                    column_to_num_row_singletons[column_ind] += 1
-                else:
-                    column_to_num_row_singletons[column_ind] = 1
-
-        print('num_communicating', num_communicating, column_to_num_row_singletons)
-        
-        for j, num_singletons in column_to_num_row_singletons.items():
-            num_ones = 0
-            for i in range(m):
-                num_ones += (grid[i][j] == 1)
-                if num_ones > 1:
-                    num_communicating += num_singletons
-                    break
-
-        return num_communicating
+    def countServers(self, grid: list[list[int]]) -> int:
+        c=0
+        for i in grid:
+            sm=sum(i)
+            if sm==1:
+                t=[l for l in range(len(i)) if i[l]==1] 
+                cc=0
+                for j in range(len(grid)):
+                    if grid[j][t[0]]==1:
+                        cc+=1
+                if cc<2:
+                    c-=1
+            c+=sm
+        return c
