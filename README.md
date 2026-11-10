@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0647-palindromic-substrings](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0647-palindromic-substrings) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
+| [3693-climbing-stairs-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3693-climbing-stairs-ii) |
 ## Combinatorics
 |  |
 | ------- |
@@ -53,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1882-process-tasks-using-servers](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1882-process-tasks-using-servers) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
+| [3693-climbing-stairs-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3693-climbing-stairs-ii) |
 ## Hash Table
 |  |
 | ------- |
