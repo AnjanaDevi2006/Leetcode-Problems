@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0189-rotate-array) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
+| [3789-minimum-cost-to-acquire-required-items](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3789-minimum-cost-to-acquire-required-items) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -146,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0680-valid-palindrome-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0680-valid-palindrome-ii) |
+| [3789-minimum-cost-to-acquire-required-items](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3789-minimum-cost-to-acquire-required-items) |
 ## Bracket Sequences
 |  |
 | ------- |
