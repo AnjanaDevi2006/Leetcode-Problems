@@ -1,10 +1,24 @@
 class Solution:
-    def minimumCost(self, cost1: int, cost2: int, costBoth: int, need1: int, need2: int) -> int:
-        c1, c2, cb = cost1, cost2, costBoth
-        n1, n2 = need1, need2
-        pairs = min(n1, n2)
-        cost_pairs = pairs * min(cb, c1 + c2)
-        rem1 = n1 - pairs
-        rem2 = n2 - pairs
-        cost_rem = rem1 * min(c1, cb) + rem2 * min(c2, cb)
-        return cost_pairs + cost_rem
+    def minimumCost(
+        self, cost1: int, cost2: int, costBoth: int, need1: int, need2: int
+    ) -> int:
+        # Buying separately is cheaper; item 3 is unnecessary
+        if cost1 + cost2 <= costBoth:
+            totalCost = cost1 * need1 + cost2 * need2
+        else:
+            # Buy item 3 first until one requirement is fulfilled
+            cnt_3 = min(need1, need2)
+            totalCost = cnt_3 * costBoth
+
+            need1 -= cnt_3
+            need2 -= cnt_3
+
+            # Type 1 is still needed; choose the cheaper of items 1 and 3
+            if need1 > 0:
+                totalCost += need1 * min(cost1, costBoth)
+
+            # Type 2 is still needed; choose the cheaper of items 2 and 3
+            elif need2 > 0:
+                totalCost += need2 * min(cost2, costBoth)
+
+        return totalCost
