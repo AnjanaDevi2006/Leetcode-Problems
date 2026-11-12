@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1882-process-tasks-using-servers](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1882-process-tasks-using-servers) |
+| [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3693-climbing-stairs-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3693-climbing-stairs-ii) |
 ## Hash Table
