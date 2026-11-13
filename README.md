@@ -55,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1882-process-tasks-using-servers](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1882-process-tasks-using-servers) |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3693-climbing-stairs-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3693-climbing-stairs-ii) |
 ## Hash Table
@@ -79,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0904-fruit-into-baskets](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0904-fruit-into-baskets) |
 | [0992-subarrays-with-k-different-integers](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0992-subarrays-with-k-different-integers) |
 | [1763-longest-nice-substring](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1763-longest-nice-substring) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 ## Binary Search
 |  |
@@ -122,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0856-score-of-parentheses](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0856-score-of-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1096-brace-expansion-ii) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -183,4 +186,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
+## Segment Tree
+|  |
+| ------- |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
+## Queue
+|  |
+| ------- |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
+## Monotonic Stack
+|  |
+| ------- |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
+## Monotonic Queue
+|  |
+| ------- |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 <!---LeetCode Topics End-->
