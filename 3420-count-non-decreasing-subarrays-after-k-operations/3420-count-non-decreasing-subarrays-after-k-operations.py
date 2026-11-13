@@ -1,29 +1,38 @@
-
 class Solution:
     def countNonDecreasingSubarrays(self, nums: List[int], k: int) -> int:
-        n = len(nums)
-        j = n - 1
-        ans = cost = 0
-        dq = deque()
 
-        for i in range(n - 1, -1, -1):
-            cnt = 1
+        right = len(nums) - 1
+        total_cost = 0
+        q = deque() # reqval, count
+        res = 0
 
-            while dq and dq[-1][0] < nums[i]:
-                v, c = dq.pop()
-                cnt += c
-                cost += (nums[i] - v) * c
+        for left in range(len(nums)-1, -1, -1):
+            x = nums[left]
+            c = 1
 
-            dq.append((nums[i], cnt))
+            while q and q[0][0] < x:
+                value, count = q.popleft()    
+                total_cost += (x - value) * count
+                c += count
+            
+            q.appendleft((x,c))
+                
+            while k < total_cost:
+                value, c = q.pop()
 
-            while cost > k:
-                v, c = dq.popleft()
-                cost -= v - nums[j]
-                j -= 1
+                total_cost -= value - nums[right]
+                right -= 1
 
                 if c > 1:
-                    dq.appendleft((v, c - 1))
+                    q.append((value, c - 1))
 
-            ans += j - i + 1
+            res += right - left + 1
+        
+        return res
 
-        return ans
+
+
+
+
+       
+        
