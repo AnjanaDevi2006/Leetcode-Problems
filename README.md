@@ -65,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0076-minimum-window-substring](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0076-minimum-window-substring) |
+| [0127-word-ladder](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0127-word-ladder) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0560-subarray-sum-equals-k) |
 | [0904-fruit-into-baskets](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0904-fruit-into-baskets) |
@@ -112,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0076-minimum-window-substring](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0076-minimum-window-substring) |
+| [0127-word-ladder](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0127-word-ladder) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0647-palindromic-substrings](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0680-valid-palindrome-ii) |
@@ -131,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0127-word-ladder) |
 | [1096-brace-expansion-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1096-brace-expansion-ii) |
 | [1267-count-servers-that-communicate](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1267-count-servers-that-communicate) |
 ## Sorting
@@ -205,4 +208,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
+## Bidirectional Search
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
