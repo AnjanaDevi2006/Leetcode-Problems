@@ -1,10 +1,11 @@
 class Solution:
     def minimumSumSubarray(self, nums: list[int], l: int, r: int) -> int:
         best = inf
-        for i in range(len(nums)):
-            s = 0
-            for j in range(i, min(i + r, len(nums))):  # nums[i..j], at most r long
-                s += nums[j]
-                if j - i + 1 >= l and 0 < s < best:
+        for k in range(l, r + 1):
+            s = sum(nums[:k - 1])
+            for i in range(k - 1, len(nums)):
+                s += nums[i]  # the window nums[i - k + 1 .. i]
+                if 0 < s < best:
                     best = s
+                s -= nums[i - k + 1]
         return -1 if best == inf else best
