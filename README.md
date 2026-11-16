@@ -124,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0856-score-of-parentheses](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0856-score-of-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1096-brace-expansion-ii) |
 | [1763-longest-nice-substring](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1763-longest-nice-substring) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/2243-calculate-digit-sum-of-a-string) |
 ## Backtracking
 |  |
 | ------- |
@@ -192,6 +193,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/2243-calculate-digit-sum-of-a-string) |
 ## Ordered Set
 |  |
 | ------- |
