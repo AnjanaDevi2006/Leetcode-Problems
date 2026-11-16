@@ -1,8 +1,9 @@
 class Solution:
     def digitSum(self, s: str, k: int) -> str:
-        while len(s) > k:
-            nxt = []
-            for i in range(0, len(s), k):
-                nxt.append(str(sum(int(c) for c in s[i:i + k])))
-            s = "".join(nxt)
-        return s
+        if len(s) <= k:
+            return s
+
+        nxt = "".join(str(sum(int(c) for c in s[i:i + k]))
+                      for i in range(0, len(s), k))
+
+        return self.digitSum(nxt, k)
