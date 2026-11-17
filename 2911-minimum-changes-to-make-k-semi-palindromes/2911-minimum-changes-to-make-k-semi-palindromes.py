@@ -1,23 +1,38 @@
 class Solution:
-    def minimumChanges(self, s: str, k: int) -> int:
-        n = len(s)
-        divisors = [[] for _ in range(n + 1)]  # divisors[length]: every d < length that divides it
-        for d in range(1, n):
-            for length in range(2 * d, n + 1, d):
-                divisors[length].append(d)
+    def minimumChanges(self, st: str, k: int) -> int:
+        def num(st):
+            n = len(st)
+            ans = float('inf')
+            for it in fac[len(st)]:
+                nu = n // it
+                cur = 0
+                for i in range(nu // 2):
+                    i2 = nu - i - 1
+                    for j in range(it):
+                        if st[i * it + j] != st[i2 * it + j]:
+                            cur += 1
+                ans = min(ans, cur)
+            return ans
 
-        @cache
-        def peel(i: int, j: int, d: int) -> int:  # s[i:j] in blocks of d: the outer pair of blocks, then the inside
-            if j - i <= d:
-                return 0  # no blocks or a single block: nothing to pair
-            return sum(map(ne, s[i:i + d], s[j - d:j])) + peel(i + d, j - d, d)
+        n = len(st)
+        for i in range(2, n + 1):
+            fac[i] = []
+            for j in range(1, i):
+                if i % j == 0:
+                    fac[i].append(j)
 
-        @cache
-        def cost(i: int, j: int) -> int:  # changes to make s[i:j] a semi-palindrome
-            return min(peel(i, j, d) for d in divisors[j - i])
+        dp = [[float('inf')] * (k + 1) for _ in range(n + 1)]
+        dp[0][0] = 0
 
-        best = {0: 0}  # best[j]: the fewest changes for s[:j] cut into the pieces placed so far
-        for pieces in range(1, k):  # every piece but the last
-            room = range(2 * pieces, n - 2 * (k - pieces) + 1)  # 2 letters for each piece, placed or still to come
-            best = {j: min(best[i] + cost(i, j) for i in best if i <= j - 2) for j in room}
-        return min(best[i] + cost(i, n) for i in best)  # the last piece ends at n
+        for i in range(n):
+            for j in range(i + 1):
+                cur = st[j:i + 1]
+                add = num(cur)
+                for l in range(k):
+                    dp[i + 1][l + 1] = min(dp[i + 1][l + 1], dp[j][l] + add)
+
+        return dp[n][k]
+
+# Initialize the fac array.
+fac = [[] for _ in range(210)]
+
