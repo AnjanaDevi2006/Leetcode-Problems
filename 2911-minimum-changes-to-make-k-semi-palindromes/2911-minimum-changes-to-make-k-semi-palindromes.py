@@ -1,38 +1,29 @@
 class Solution:
-    def minimumChanges(self, st: str, k: int) -> int:
-        def num(st):
-            n = len(st)
-            ans = float('inf')
-            for it in fac[len(st)]:
-                nu = n // it
-                cur = 0
-                for i in range(nu // 2):
-                    i2 = nu - i - 1
-                    for j in range(it):
-                        if st[i * it + j] != st[i2 * it + j]:
-                            cur += 1
-                ans = min(ans, cur)
-            return ans
+    def minimumChanges(self, s: str, k: int) -> int:
+        n = len(s)
+        INF = 10 ** 4
+        BIG = 10 ** 9
+        cost = [[BIG] * (n + 1) for _ in range(n + 1)]
 
-        n = len(st)
-        for i in range(2, n + 1):
-            fac[i] = []
-            for j in range(1, i):
-                if i % j == 0:
-                    fac[i].append(j)
+        for d in range(1, n // 2 + 1):
+            tmp = [[0] * (n + 1) for _ in range(n + 1)]
+            for length in range(2 * d, n + 1, d):
+                for idx in range(n - length + 1):
+                    ops = 0
+                    for o in range(d):
+                        if s[idx + o] != s[idx + length - d + o]:
+                            ops += 1
+                    tmp[idx][length] = ops + tmp[idx + d][length - 2 * d]
+                    if tmp[idx][length] < cost[idx][length]:
+                        cost[idx][length] = tmp[idx][length]
 
-        dp = [[float('inf')] * (k + 1) for _ in range(n + 1)]
-        dp[0][0] = 0
+        @lru_cache(maxsize=None)
+        def solve(idx: int, parts: int) -> int:
+            if idx == n or parts == 0:
+                return 0 if (idx == n and parts == 0) else INF
+            res = INF
+            for length in range(2, n - idx + 1):
+                res = min(res, cost[idx][length] + solve(idx + length, parts - 1))
+            return res
 
-        for i in range(n):
-            for j in range(i + 1):
-                cur = st[j:i + 1]
-                add = num(cur)
-                for l in range(k):
-                    dp[i + 1][l + 1] = min(dp[i + 1][l + 1], dp[j][l] + add)
-
-        return dp[n][k]
-
-# Initialize the fac array.
-fac = [[] for _ in range(210)]
-
+        return solve(0, k)
