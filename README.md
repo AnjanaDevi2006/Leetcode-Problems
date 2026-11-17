@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0647-palindromic-substrings](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0647-palindromic-substrings) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3693-climbing-stairs-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3693-climbing-stairs-ii) |
 ## Combinatorics
@@ -125,6 +126,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1096-brace-expansion-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1096-brace-expansion-ii) |
 | [1763-longest-nice-substring](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1763-longest-nice-substring) |
 | [2243-calculate-digit-sum-of-a-string](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/2243-calculate-digit-sum-of-a-string) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 ## Backtracking
 |  |
 | ------- |
@@ -158,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0647-palindromic-substrings](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0680-valid-palindrome-ii) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1385-find-the-distance-value-between-two-arrays) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 ## Greedy
 |  |
 | ------- |
