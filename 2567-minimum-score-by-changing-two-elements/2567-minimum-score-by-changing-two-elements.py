@@ -1,5 +1,3 @@
 class Solution:
-    def minimizeSum(self, nums: List[int]) -> int:
-        small = nsmallest(3, nums)
-        large = nlargest(3, nums)
-        return min(large[0] - small[2], large[1] - small[1], large[2] - small[0])
+    def minimizeSum(self, nums: list[int]) -> int:
+        return min(map(sub, nlargest(3, nums), reversed(nsmallest(3, nums))))  # change the 2 smallest, 1 of each, or the 2 largest
