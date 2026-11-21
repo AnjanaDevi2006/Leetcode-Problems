@@ -64,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2567-minimum-score-by-changing-two-elements](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3364-minimum-positive-sum-subarray](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3364-minimum-positive-sum-subarray) |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
@@ -80,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0992-subarrays-with-k-different-integers](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0992-subarrays-with-k-different-integers) |
 | [1096-brace-expansion-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1096-brace-expansion-ii) |
 | [1763-longest-nice-substring](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1763-longest-nice-substring) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 ## Sliding Window
 |  |
@@ -131,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2243-calculate-digit-sum-of-a-string](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 | [2914-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/2914-minimum-number-of-changes-to-make-binary-string-beautiful) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3331-find-subtree-sizes-after-changes) |
 ## Backtracking
 |  |
 | ------- |
@@ -195,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1267-count-servers-that-communicate](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1267-count-servers-that-communicate) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3331-find-subtree-sizes-after-changes) |
 ## Union-Find
 |  |
 | ------- |
@@ -228,4 +232,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0127-word-ladder) |
+## Tree
+|  |
+| ------- |
+| [3331-find-subtree-sizes-after-changes](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3331-find-subtree-sizes-after-changes) |
 <!---LeetCode Topics End-->
