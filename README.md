@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0053-maximum-subarray](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0053-maximum-subarray) |
 | [0647-palindromic-substrings](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0647-palindromic-substrings) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
@@ -139,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0438-find-all-anagrams-in-a-string](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0647-palindromic-substrings](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0680-valid-palindrome-ii) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0856-score-of-parentheses](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0856-score-of-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1096-brace-expansion-ii) |
 | [1763-longest-nice-substring](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/1763-longest-nice-substring) |
@@ -279,4 +281,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3934-smallest-unique-subarray](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/3934-smallest-unique-subarray) |
+## Longest Common Subsequence
+|  |
+| ------- |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/AnjanaDevi2006/Leetcode-Problems/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 <!---LeetCode Topics End-->
